@@ -8,8 +8,9 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT_SERVER;
+const URI = process.env.MONGO_URI;
 
-mongoose.connect('mongodb://localhost:27017/fullstack_db');
+mongoose.connect(URI);
 
 const db = mongoose.connection;
 
