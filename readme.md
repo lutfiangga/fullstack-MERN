@@ -32,7 +32,7 @@ A simple user management application built with the MERN stack (MongoDB, Express
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/user-management-crud-mern.git
+git clone https://github.com/lutfiangga/user-management-MERN.git
 cd user-management-crud-mern
 ```
 
